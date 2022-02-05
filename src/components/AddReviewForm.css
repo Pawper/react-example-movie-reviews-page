@@ -1,0 +1,40 @@
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .modal-body {
+    display: grid;
+    grid-template-areas:
+      "movieName movieRating"
+      "reviewText reviewText";
+  }
+}
+
+.reviewName {
+  grid-area: movieName;
+}
+
+.reviewRating {
+  grid-area: movieRating;
+}
+
+.reviewRating > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-text {
+  grid-area: reviewText;
+}
+
+.reviewForm > button {
+  grid-area: addBtn;
+}
+
+.modal-footer {
+  flex-direction: row-reverse;
+  justify-content: end;
+}

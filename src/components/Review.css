@@ -1,0 +1,24 @@
+.card-body {
+  text-align: left;
+  display: grid;
+  grid-template-areas:
+    "headings delete"
+    "text text";
+  gap: 10px;
+  align-items: center;
+}
+
+.headings {
+  grid-area: headings;
+}
+
+.card-body > .btn {
+  grid-area: delete;
+  align-self: start;
+  justify-self: end;
+}
+
+.card-text {
+  max-width: 60ch;
+  grid-area: text;
+}

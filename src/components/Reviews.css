@@ -1,0 +1,8 @@
+.reviews {
+  padding: 0;
+  width: fit-content;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

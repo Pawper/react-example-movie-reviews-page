@@ -1,0 +1,9 @@
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title > img {
+  width: 100px;
+  margin: 0 -15px -5px -20px;
+}
