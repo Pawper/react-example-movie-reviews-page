@@ -1,0 +1,48 @@
+@media print {
+  body {
+    color: purple;
+  }
+
+  header,
+  footer,
+  aside,
+  nav,
+  form,
+  iframe,
+  .menu,
+  .hero,
+  .adslot {
+    display: none !important;
+  }
+
+  div {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .card-text {
+    color: blue;
+    column-count: 2 !important;
+
+    column-width: 17em;
+    column-gap: 3em;
+  }
+
+  button,
+  .btn,
+  .MuiButton-root {
+    display: none !important;
+  }
+
+  body {
+    margin: 0;
+    background: unset;
+    height: unset;
+  }
+
+  .App {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

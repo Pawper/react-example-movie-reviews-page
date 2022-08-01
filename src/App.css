@@ -8,3 +8,13 @@
 .container > .btn {
   align-self: end;
 }
+
+/* @media print {
+  .container {
+    max-width: unset;
+  }
+
+  .container .btn {
+    display: none;
+  }
+} */
